@@ -1,7 +1,7 @@
 # 支付接口说明
 
 - 支付类型heepay 请求Api：https://域名/api/heepay
-- 支付类型为其他 请求Api：https://域名//api/pay  
+- 支付类型为其他 请求Api：https://域名/api/pay  
 - 请求方式：get/post （返回url）
 
 ### 参数：
