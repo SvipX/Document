@@ -101,6 +101,6 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 |  2001   | 订单号已存在  |
 |  2002   | 订单创建失败  |
 |  2003   | 没有权限    |
-|  2004   | 城市不匹配   |
+|  2004   | 通道错误   |
 |  2005   | 验证码发送失败 |
 |  2006   | 验证码验证失败 |
