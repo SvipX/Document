@@ -6,21 +6,21 @@
 
 ### 参数：
 
-|           参数         | 是否必填 | 描述           |
-|:----------------------|:------:|:-------------|
-| app_id               | 必填 | 商户appid，后台可见 |
-| order_no             | 必填 | 商户订单，原样回传    |
-| pay_type             | 必填 | 参照支付类型       |
-| pay_amt              | 必填 | 支付金额         |
-| pay_cur              | 必填 | 固定参数：CNY     |
-| goods_name           | 必填 | 商品名字         |
-| return_url           | 必填 | 同步通知url      |
-| notify_url           | 必填 | 异步通知url      |
-| application_username | 必填 | 用户姓名         |
-| application_user_id  | 必填 | 身份证号，用户唯一标识  |
-| state                | 选填 | 商户自定义信息，原值回传 |
-| ts                   | 必填 | unix格式时间戳    |
-| sign                 | 必填 | 签名           |
+|           参数         | 是否必填 | 签名 | 描述           |
+|:----------------------|:------:|:------:|:-------------|
+| app_id               | 必填 | 是 | 商户appid，后台可见 |
+| order_no             | 必填 | 是 | 商户订单，原样回传    |
+| pay_type             | 必填 | 是 | 参照支付类型       |
+| pay_amt              | 必填 | 是 | 支付金额         |
+| pay_cur              | 必填 | 是 | 固定参数：CNY     |
+| goods_name           | 必填 | 否 | 商品名字         |
+| return_url           | 必填 | 是 | 同步通知url      |
+| notify_url           | 必填 | 是 | 异步通知url      |
+| application_username | 必填 | 否 | 用户姓名         |
+| application_user_id  | 必填 | 否 | 身份证号，用户唯一标识  |
+| state                | 选填 | 否 | 商户自定义信息，原值回传 |
+| ts                   | 必填 | 是 | unix格式时间戳    |
+| sign                 | 必填 | 否 | MD5签名           |
 
 ### 签名方式(注意顺序)：
 
@@ -32,7 +32,16 @@
 app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pay_cur={$pay_cur}pay_type={$pay_type}return_url={$return_url}{$ts}[secret_key]
 ```
 对以上内容进行md5，结果为英文为小写，[secret_key]为商户秘钥（见商户后台）
+## 响应返回参数
 
+如果没有报错，响应支付连接（明文）。如果报错响应json，例
+```
+[
+  'errcode' => '5000',
+  'errmsg' => '系统错误'
+]
+```
+常见错误码说明在最下
 ## return/notify通知回调
 
 ### 注意事项
@@ -42,7 +51,7 @@ app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pa
 get
 
 ### 场景说明
-用户支付完成（成功或失败）后，return通知为直接返回商户给到url（一般是用户点击了返回商户界面操作，会执行跳转，也可能不触发）
+用户支付完成（成功或失败）后，return通知为直接返回商户给到url（一般是用户点击了返回商户界面操作，默认不触发）
 
 用户支付完成（成功或失败）后，notify通知为异步通知，肯定会触发，支付平台后台调用该接口，不会在用户界面体现。
 
@@ -50,16 +59,16 @@ get
 
 ### 参数：
 
-|      参数      |  是否必填  | 描述         |
-|:---------------|:----------:|:-----------|
-| app_id         |   一定有   | 商户appid    |
-| is_success     |   一定有   | 1：成功，0：失败  |
-| fail_msg       |   失败有   | 失败消息       |
-| order_no       |   一定有   | 商户订单       |
-| pay_actual_amt |   一定有   | 实际支付金额     |
-| state          |   一定有   | 自定义信息，原值回传 |
-| ts             |   一定有   | unix格式时间戳  |
-| sign           |   一定有   | md5签名      |
+|      参数      |  是否必填  |  参与签名  | 描述         |
+|:---------------|:----------:|:----------:|:-----------|
+| app_id         |   一定有   |   是   | 商户appid    |
+| is_success     |   一定有   |   是   | 1：成功，0：失败  |
+| fail_msg       |   失败有   |   否   | 失败原因       |
+| order_no       |   一定有   |   是   | 商户订单       |
+| pay_actual_amt |   一定有   |   是   | 实际支付金额     |
+| state          |   一定有   |   否   | 自定义信息，原值回传 |
+| ts             |   一定有   |   是   | unix格式时间戳  |
+| sign           |   一定有   |   否   | md5签名      |
 
 ### 通知验参示例：
 ```
@@ -82,7 +91,7 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 - pay_type = e_cny *数字人民币*
 
 ## 常见错误码说明
-| errcode | 错误信息    |
+| errcode | errmsg    |
 |:-------:|:--------|
 |  1001   | 参数错误    |
 |  1002   | 签名错误    |
