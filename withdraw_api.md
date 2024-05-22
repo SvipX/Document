@@ -12,7 +12,9 @@
 | order_no        | 必填 | 商户订单，原样回传      |
 | bank_id         | 必填 | 参照银行编号说明       |
 | bank_account    | 必填 | 银行账号           |
+| bank_account_type | 必填 | 银行类型 0对私 1对公|
 | bank_user_name  | 必填 | 银行账户姓名         |
+| bank_user_id    | 必填 | 身份证号         |
 | branch_name     | 必填 | 支行名称         |
 | city            | 必填 | 地级市，例如：北京市 杭州市 |
 | ts              | 必填 | unix格式时间戳    |
@@ -27,7 +29,7 @@
 - 签名示例:
 
 ```
-$sign = md5("amount={$amount}&app_id={$app_id}&bank_account={$bank_account}&bank_id={$bank_id}&bank_user_name={$bank_user_name}&city{$city}&order_no={$order_no}&ts={$ts}&key={$secret_key}")
+$sign = md5("amount={$amount}&app_id={$app_id}&bank_account={$bank_account}&&bank_account_type={$bank_account_type}bank_id={$bank_id}&bank_user_id={$bank_user_id}&bank_user_name={$bank_user_name}&city{$city}&order_no={$order_no}&ts={$ts}&key={$secret_key}")
 ```
 {$secret_key}为商户秘钥（见商户后台）
 
