@@ -12,7 +12,7 @@
 | order_no        | 必填 | 商户订单，原样回传      |
 | bank_id         | 必填 | 参照银行编号说明       |
 | bank_account    | 必填 | 银行账号           |
-| bank_account_type | 必填 | 银行类型 0对私 1对公|
+| bank_account_type | 必填 | 银行类型 0 对私 1 对公|
 | bank_user_name  | 必填 | 银行账户姓名         |
 | bank_user_id    | 必填 | 身份证号         |
 | branch_name     | 必填 | 支行名称         |
