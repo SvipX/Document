@@ -29,7 +29,7 @@
 - 签名示例:
 
 ```
-$sign = md5("amount={$amount}&app_id={$app_id}&bank_account={$bank_account}&&bank_account_type={$bank_account_type}bank_id={$bank_id}&bank_user_id={$bank_user_id}&bank_user_name={$bank_user_name}&city{$city}&order_no={$order_no}&ts={$ts}&key={$secret_key}")
+$sign = md5("amount={$amount}&app_id={$app_id}&bank_account={$bank_account}&bank_account_type={$bank_account_type}$bank_id={$bank_id}&bank_user_id={$bank_user_id}&bank_user_name={$bank_user_name}&city={$city}&order_no={$order_no}&ts={$ts}&key={$secret_key}")
 ```
 {$secret_key}为商户秘钥（见商户后台）
 
