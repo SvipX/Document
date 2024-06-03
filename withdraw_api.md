@@ -16,7 +16,7 @@
 | bank_user_name  | 必填 | 银行账户姓名         |
 | bank_user_id    | 必填 | 身份证号         |
 | branch_name     | 必填 | 支行名称         |
-| city            | 必填 | 地级市，例如：北京市 杭州市 |
+| city            | 必填 | 城市名或直辖市区，例如：杭州市或朝阳区。参照 citys.json |
 | ts              | 必填 | unix格式时间戳    |
 | sign            | 必填 | 签名             |
 
@@ -88,7 +88,7 @@ $sign = md5("app_id={$app_id}&order_no={$order_no}&ts={$ts}&key={$secret_key}")
 ];
 ```
 
-errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为查询错误原因。 
+errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原因。 
 errcode为 0 时说明查询成功，errmsg为代付订单备注（失败原因或鉴权）。 
 status为代付订单状态 success代付成功 checking处理中 fail代付失败。
 
