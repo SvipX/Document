@@ -88,9 +88,9 @@ $sign = md5("app_id={$app_id}&order_no={$order_no}&ts={$ts}&key={$secret_key}")
 ];
 ```
 
-errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原因。 
-errcode为 0 时说明查询成功，errmsg为代付订单备注（失败原因或鉴权）。 
-status为代付订单状态 success代付成功 checking处理中 fail代付失败。
+errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原因。  
+errcode为 0 时说明查询成功，errmsg为代付订单备注（失败原因或鉴权）。  
+status为代付订单状态 success代付成功 checking处理中 fail代付失败。  
 
 ## 银行编号说明
 
