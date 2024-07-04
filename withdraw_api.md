@@ -16,7 +16,7 @@
 | bank_user_name  | 必填 | 银行账户姓名/支付宝姓名  |
 | bank_user_id    | 必填 | 身份证号         |
 | branch_name     | 必填 | 支行名称；可填银行名称 |
-| city            | 必填 | 地级城市名或直辖市区； 如: 杭州市 或 朝阳区。参照 citys.json |
+| city            | 必填 | 地级城市名或直辖市区名； 如: 杭州市 或 朝阳区。参照 citys.json |
 | ts              | 必填 | unix格式时间戳    |
 | sign            | 必填 | 签名             |
 
