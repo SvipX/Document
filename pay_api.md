@@ -64,8 +64,10 @@ get
 | app_id         |   一定有   |   是   | 商户appid    |
 | is_success     |   一定有   |   是   | 1：成功，0：失败  |
 | fail_msg       |   失败有   |   否   | 失败原因       |
-| order_no       |   一定有   |   是   | 商户订单       |
+| order_no       |   一定有   |   是   | 商户订单号       |
 | pay_actual_amt |   一定有   |   是   | 实际支付金额     |
+| pay_type       |   一定有   |   否   | 支付类型 |
+| transaction_id |   一定有   |   否   | 平台订单编号 |
 | state          |   一定有   |   否   | 自定义信息，原值回传 |
 | ts             |   一定有   |   是   | unix格式时间戳  |
 | sign           |   一定有   |   否   | md5签名      |
