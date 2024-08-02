@@ -82,15 +82,14 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 处理成功后请返回字符串：ok。则视为通知成功，如果没有返回或返回其它内容，则视为通知失败。
 
 ## 支付类型：
-- pay_type = heepay *汇付宝快捷支付(网关签约)*
-- pay_type = bank *网银支付*
-- pay_type = bank_swift *网关快捷*
-- pay_type = bank_card *银行卡转账*
-- pay_type = union_swift *银联快捷*
-- pay_type = union_scan *银联扫码*
+
+- pay_type = e_cny *数字人民币*
+- pay_type = bank *网关快捷/卡卡转账*
+- pay_type = union *银联快捷/银联扫码*
 - pay_type = alipay *支付宝*
 - pay_type = wechat *微信*
-- pay_type = e_cny *数字人民币*
+- pay_type = heepay *汇付宝快捷支付(网关签约)*
+
 
 ## 常见错误码说明
 | errcode | errmsg    |
