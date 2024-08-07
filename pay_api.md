@@ -2,7 +2,6 @@
 
 
 - 请求Api：https://www.greatpay.vip/api/pay  
-- 支付类型heepay 请求Api：https://www.greatpay.vip/api/heepay
 - 请求方式：get/post （返回url）
 
 ### 参数：
