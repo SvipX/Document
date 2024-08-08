@@ -82,7 +82,7 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 处理成功后请返回字符串：ok。则视为通知成功，如果没有返回或返回其它内容，则视为通知失败。
 
 ## 支付类型：
-
+- pay_type = scan *扫码/反扫*
 - pay_type = e_cny *数字人民币*
 - pay_type = bank *网关快捷/卡卡转账*
 - pay_type = union *银联快捷/银联扫码*
