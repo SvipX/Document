@@ -82,13 +82,16 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 处理成功后请返回字符串：ok。则视为通知成功，如果没有返回或返回其它内容，则视为通知失败。
 
 ## 支付类型：
-- pay_type = scan *扫码/反扫*
-- pay_type = e_cny *数字人民币*
-- pay_type = bank *网关快捷/卡卡转账*
-- pay_type = union *银联快捷/银联扫码*
-- pay_type = alipay *支付宝*
-- pay_type = wechat *微信*
+
 - pay_type = heepay *汇付宝快捷支付(网关签约)*
+- pay_type = e_cny *数字人民币*
+- pay_type = union *银联快捷/银联扫码*
+- pay_type = wechat *微信*
+- pay_type = wechat_h5 *微信H5*
+- pay_type = wechat_scan *微信扫码*
+- pay_type = alipay *支付宝*
+- pay_type = alipay_h5 *支付宝H5*
+- pay_type = alipay_scan *支付宝扫码*
 
 
 ## 常见错误码说明
