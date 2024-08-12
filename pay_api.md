@@ -15,7 +15,7 @@
 | goods_name           | 必填 | 否 | 商品名字         |
 | return_url           | 必填 | 是 | 同步通知url      |
 | notify_url           | 必填 | 是 | 异步通知url      |
-| application_username | 选填 | 否 | 用户姓名 heepay 必填          |
+| application_username | 必填 | 否 | 用户姓名         |
 | application_user_id  | 选填 | 否 | 用户唯一标识 heepay 必填  |
 | state                | 选填 | 否 | 商户自定义信息，原值回传 |
 | ts                   | 必填 | 是 | unix格式时间戳    |
