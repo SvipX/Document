@@ -31,7 +31,7 @@
 app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pay_cur={$pay_cur}pay_type={$pay_type}return_url={$return_url}{$ts}[secret_key]
 ```
 对以上内容进行md5，结果为英文为小写，[secret_key]为商户秘钥（见商户后台）
-## 响应返回参数
+### 响应返回参数
 
 如果没有报错，响应支付连接（明文）。如果报错响应json，例
 ```
@@ -79,9 +79,7 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 
 ## 支付查询
 
-### url
-
-- 代付查询Api：https://域名/api/pay/query
+- 查询Api：https://域名/api/pay/query
 - 请求方式：post
 
 ### 查询参数
