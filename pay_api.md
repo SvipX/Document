@@ -102,7 +102,7 @@ $sign = md5("app_id={$app_id}&order_no={$order_no}{$ts}{$secret_key}")
 ```
 [
     'errcode' => '0',
-    'errmsg' => 'success',
+    'errmsg' => '查询成功',
     'order_no' => 商户订单,
     'amount' => 支付金额,
     'create_time' => 下单时间,
