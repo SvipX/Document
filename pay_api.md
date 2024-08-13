@@ -77,6 +77,44 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 ### notify通知返回：
 处理成功后请返回字符串：ok。则视为通知成功，如果没有返回或返回其它内容，则视为通知失败。
 
+## 支付查询
+
+### url
+
+- 代付查询Api：https://域名/api/pay/query
+- 请求方式：post
+
+### 查询参数
+
+|   参数   |  空  |    描述    |
+|:---------|:----:|:-----------|
+| app_id   | 必填 | 商户appid  |
+| order_no | 必填 | 商户订单编号 |
+| ts       | 必填 | unix时间戳 |
+| sign     | 必填 | md5签名    |
+
+### 查询签名
+- 示例:
+```
+$sign = md5("app_id={$app_id}&order_no={$order_no}{$ts}{$secret_key}")
+```
+
+### 查询返回参数：
+- 示例：json()
+```
+[
+    'errcode' => '0',
+    'errmsg' => 'success',
+    'order_no' => 商户订单,
+    'amount' => 支付金额,
+    'create_time' => 下单时间,
+    'success_time' => 成功时间,
+    'status' => 1
+]
+```
+errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原因。  
+status为代付订单状态 1成功 0未支付 -1失败。  
+
 ## 支付类型：
 
 - pay_type = heepay *汇付宝快捷支付(网关签约)*
