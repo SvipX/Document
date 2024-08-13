@@ -94,7 +94,7 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 ### 查询签名
 - 示例:
 ```
-$sign = md5("app_id={$app_id}&order_no={$order_no}{$ts}[secret_key]")
+$sign = md5("app_id={$app_id}order_no={$order_no}{$ts}[secret_key]")
 ```
 
 ### 查询返回参数：
