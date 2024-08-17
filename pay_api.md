@@ -104,6 +104,7 @@ app_id={$app_id}order_no={$order_no}{$ts}[secret_key]
     'errcode' => '0',
     'errmsg' => '查询成功',
     'order_no' => 商户订单,
+    'transaction_id' => 平台订单编号,
     'amount' => 支付金额,
     'create_time' => 下单时间,
     'success_time' => 成功时间,
