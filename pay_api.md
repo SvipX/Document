@@ -118,13 +118,15 @@ status为代付订单状态 1成功 0未支付 -1失败。
 
 - pay_type = heepay *汇付宝快捷支付(网关签约)*
 - pay_type = e_cny *数字人民币*
-- pay_type = union *银联快捷/银联扫码*
-- pay_type = wechat *微信*
-- pay_type = wechat_h5 *微信H5*
-- pay_type = wechat_scan *微信扫码*
+- pay_type = union *银联快捷*
+- pay_type = union_scan *银联扫码*
+- pay_type = union_cloud *云闪付*
 - pay_type = alipay *支付宝*
 - pay_type = alipay_h5 *支付宝H5*
 - pay_type = alipay_scan *支付宝扫码*
+- pay_type = wechat *微信*
+- pay_type = wechat_h5 *微信H5*
+- pay_type = wechat_scan *微信扫码*
 
 
 ## 常见错误码说明
