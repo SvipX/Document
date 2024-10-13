@@ -117,6 +117,8 @@ status为代付订单状态 1成功 0未支付 -1失败。
 ## 支付类型：
 
 - pay_type = heepay *汇付宝快捷支付(网关签约)*
+- pay_type = upay *USDT直付，TRC20链上转账*
+- pay_type = wallet *虚拟币钱包*
 - pay_type = e_cny *数字人民币*
 - pay_type = union *银联快捷*
 - pay_type = union_scan *银联扫码*
