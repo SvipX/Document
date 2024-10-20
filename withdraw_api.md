@@ -15,7 +15,7 @@
 | bank_account_type | 必填 | 银行类型 0 对私 1 对公 |
 | bank_user_name  | 必填 | 银行账户姓名/支付宝姓名  |
 | bank_user_id    | 必填 | 身份证号         |
-| branch_name     | 必填 | 支行名称；可填银行名称/汇旺这里是区号例如 +86 |
+| branch_name     | 必填 | 支行名称；可填银行名称/汇旺这里是区号例如 "+86" |
 | city            | 必填 | 地级城市名或直辖市区名； 如: 杭州市 或 朝阳区。参照 citys.json |
 | ts              | 必填 | unix格式时间戳    |
 | sign            | 必填 | 签名             |
