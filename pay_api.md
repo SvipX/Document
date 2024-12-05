@@ -112,7 +112,7 @@ app_id={$app_id}order_no={$order_no}{$ts}{$secret_key}
 ]
 ```
 errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原因。  
-status为代付订单状态 1成功 0未支付 -1失败。  
+status为订单状态 1成功 0未支付 -1失败。  
 
 ## 支付类型：
 
