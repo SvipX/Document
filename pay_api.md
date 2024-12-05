@@ -24,13 +24,13 @@
 ### 签名方式(注意顺序)：
 
 参数根据键名以 ascii 升序排序，并剔除值为空(null 或空字符串)的参数及sign参数。  
-处理后的参数以 "{$key}={$value}" 的方式拼接，{ts}与[secret_key]只拼接值，无键名。
+处理后的参数以 "{$key}={$value}" 的方式拼接，{$ts}与{$secret_key}只拼接值，无键名。
 
 示例:
 ```
-app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pay_cur={$pay_cur}pay_type={$pay_type}return_url={$return_url}{$ts}[secret_key]
+app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pay_cur={$pay_cur}pay_type={$pay_type}return_url={$return_url}{$ts}{$secret_key}
 ```
-对以上内容进行md5，结果为英文为小写，[secret_key]为商户秘钥（见商户后台）
+对以上内容进行md5，结果为英文为小写，{$secret_key}为商户秘钥（见商户后台）
 ### 响应返回参数
 
 如果没有报错，响应支付连接（明文）。如果报错响应json，例
@@ -70,7 +70,7 @@ get
 
 ### 通知验参示例：
 ```
-app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay_actual_amt}{$ts}[secret_key]
+app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay_actual_amt}{$ts}{$secret_key}
 ```
 签名规则参照支付接口
 
@@ -94,7 +94,7 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 ### 查询签名
 - 示例:
 ```
-app_id={$app_id}order_no={$order_no}{$ts}[secret_key]
+app_id={$app_id}order_no={$order_no}{$ts}{$secret_key}
 ```
 
 ### 查询返回参数：
