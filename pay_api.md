@@ -124,6 +124,7 @@ status为订单状态 1成功 0未支付 -1失败。
 - pay_type = union_cloud *云闪付*
 - pay_type = alipay *支付宝*
 - pay_type = alipay_h5 *支付宝H5*
+- pay_type = alipay_fixed *支付宝固额*
 - pay_type = alipay_scan *支付宝扫码*
 - pay_type = wechat *微信*
 - pay_type = wechat_h5 *微信H5*
