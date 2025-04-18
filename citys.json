@@ -1,0 +1,2140 @@
+[
+  {
+    "value": 1,
+    "option": "北京直辖市",
+    "children": [
+      {
+        "value": 1,
+        "option": "昌平区"
+      },
+      {
+        "value": 2,
+        "option": "朝阳区"
+      },
+      {
+        "value": 3,
+        "option": "崇文区"
+      },
+      {
+        "value": 4,
+        "option": "大兴区"
+      },
+      {
+        "value": 5,
+        "option": "东城区"
+      },
+      {
+        "value": 6,
+        "option": "房山区"
+      },
+      {
+        "value": 7,
+        "option": "丰台区"
+      },
+      {
+        "value": 8,
+        "option": "海淀区"
+      },
+      {
+        "value": 9,
+        "option": "怀柔区"
+      },
+      {
+        "value": 10,
+        "option": "门头沟区"
+      },
+      {
+        "value": 11,
+        "option": "密云区"
+      },
+      {
+        "value": 12,
+        "option": "平谷区"
+      },
+      {
+        "value": 13,
+        "option": "石景山区"
+      },
+      {
+        "value": 14,
+        "option": "顺义区"
+      },
+      {
+        "value": 15,
+        "option": "通州区"
+      },
+      {
+        "value": 16,
+        "option": "西城区"
+      },
+      {
+        "value": 17,
+        "option": "宣武区"
+      },
+      {
+        "value": 18,
+        "option": "延庆区"
+      }
+    ]
+  },
+  {
+    "value": 2,
+    "option": "上海直辖市",
+    "children": [
+      {
+        "value": 19,
+        "option": "宝山区"
+      },
+      {
+        "value": 20,
+        "option": "长宁区"
+      },
+      {
+        "value": 21,
+        "option": "崇明县"
+      },
+      {
+        "value": 22,
+        "option": "奉贤区"
+      },
+      {
+        "value": 23,
+        "option": "虹口区"
+      },
+      {
+        "value": 24,
+        "option": "黄浦区"
+      },
+      {
+        "value": 25,
+        "option": "嘉定区"
+      },
+      {
+        "value": 26,
+        "option": "金山区"
+      },
+      {
+        "value": 27,
+        "option": "静安区"
+      },
+      {
+        "value": 28,
+        "option": "卢湾区"
+      },
+      {
+        "value": 29,
+        "option": "闵行区"
+      },
+      {
+        "value": 30,
+        "option": "南汇区"
+      },
+      {
+        "value": 31,
+        "option": "浦东新区"
+      },
+      {
+        "value": 32,
+        "option": "普陀区"
+      },
+      {
+        "value": 33,
+        "option": "青浦区"
+      },
+      {
+        "value": 34,
+        "option": "松江区"
+      },
+      {
+        "value": 35,
+        "option": "徐汇区"
+      },
+      {
+        "value": 36,
+        "option": "杨浦区"
+      },
+      {
+        "value": 37,
+        "option": "闸北区"
+      }
+    ]
+  },
+  {
+    "value": 3,
+    "option": "天津直辖市",
+    "children": [
+      {
+        "value": 38,
+        "option": "宝坻区"
+      },
+      {
+        "value": 39,
+        "option": "北辰区"
+      },
+      {
+        "value": 40,
+        "option": "滨海新区"
+      },
+      {
+        "value": 41,
+        "option": "大港区"
+      },
+      {
+        "value": 42,
+        "option": "东丽区"
+      },
+      {
+        "value": 43,
+        "option": "汉沽区"
+      },
+      {
+        "value": 44,
+        "option": "和平区"
+      },
+      {
+        "value": 45,
+        "option": "河北区"
+      },
+      {
+        "value": 46,
+        "option": "河东区"
+      },
+      {
+        "value": 47,
+        "option": "河西区"
+      },
+      {
+        "value": 48,
+        "option": "红桥区"
+      },
+      {
+        "value": 49,
+        "option": "蓟县"
+      },
+      {
+        "value": 50,
+        "option": "津南区"
+      },
+      {
+        "value": 51,
+        "option": "静海县"
+      },
+      {
+        "value": 52,
+        "option": "南开区"
+      },
+      {
+        "value": 53,
+        "option": "宁河县"
+      },
+      {
+        "value": 54,
+        "option": "塘沽区"
+      },
+      {
+        "value": 55,
+        "option": "武清区"
+      },
+      {
+        "value": 56,
+        "option": "西青区"
+      }
+    ]
+  },
+  {
+    "value": 4,
+    "option": "重庆直辖市",
+    "children": [
+      {
+        "value": 57,
+        "option": "巴南区"
+      },
+      {
+        "value": 58,
+        "option": "北碚区"
+      },
+      {
+        "value": 59,
+        "option": "璧山县"
+      },
+      {
+        "value": 60,
+        "option": "长寿区"
+      },
+      {
+        "value": 61,
+        "option": "城口县"
+      },
+      {
+        "value": 62,
+        "option": "大渡口区"
+      },
+      {
+        "value": 63,
+        "option": "大足县"
+      },
+      {
+        "value": 64,
+        "option": "垫江县"
+      },
+      {
+        "value": 65,
+        "option": "丰都县"
+      },
+      {
+        "value": 66,
+        "option": "奉节县"
+      },
+      {
+        "value": 67,
+        "option": "涪陵区"
+      },
+      {
+        "value": 68,
+        "option": "合川区"
+      },
+      {
+        "value": 69,
+        "option": "江北区"
+      },
+      {
+        "value": 70,
+        "option": "江津区"
+      },
+      {
+        "value": 71,
+        "option": "九龙坡区"
+      },
+      {
+        "value": 72,
+        "option": "开县"
+      },
+      {
+        "value": 73,
+        "option": "梁平县"
+      },
+      {
+        "value": 74,
+        "option": "南岸区"
+      },
+      {
+        "value": 75,
+        "option": "南川市"
+      },
+      {
+        "value": 76,
+        "option": "彭水苗族土家族自治县"
+      },
+      {
+        "value": 77,
+        "option": "綦江县"
+      },
+      {
+        "value": 78,
+        "option": "黔江区"
+      },
+      {
+        "value": 79,
+        "option": "荣昌县"
+      },
+      {
+        "value": 80,
+        "option": "沙坪坝区"
+      },
+      {
+        "value": 81,
+        "option": "石柱土家族自治县"
+      },
+      {
+        "value": 82,
+        "option": "双桥区"
+      },
+      {
+        "value": 83,
+        "option": "铜梁县"
+      },
+      {
+        "value": 84,
+        "option": "潼南县"
+      },
+      {
+        "value": 85,
+        "option": "万盛区"
+      },
+      {
+        "value": 86,
+        "option": "万州区"
+      },
+      {
+        "value": 87,
+        "option": "巫山县"
+      },
+      {
+        "value": 88,
+        "option": "巫溪县"
+      },
+      {
+        "value": 89,
+        "option": "武隆县"
+      },
+      {
+        "value": 90,
+        "option": "秀山土家族苗族自治县"
+      },
+      {
+        "value": 91,
+        "option": "永川区"
+      },
+      {
+        "value": 92,
+        "option": "酉阳土家族苗族自治县"
+      },
+      {
+        "value": 93,
+        "option": "渝北区"
+      },
+      {
+        "value": 94,
+        "option": "渝南区"
+      },
+      {
+        "value": 95,
+        "option": "渝中区"
+      },
+      {
+        "value": 96,
+        "option": "云阳县"
+      },
+      {
+        "value": 97,
+        "option": "忠县"
+      }
+    ]
+  },
+  {
+    "value": 5,
+    "option": "广东省",
+    "children": [
+      {
+        "value": 98,
+        "option": "潮州市"
+      },
+      {
+        "value": 99,
+        "option": "澄海市"
+      },
+      {
+        "value": 100,
+        "option": "东莞市"
+      },
+      {
+        "value": 101,
+        "option": "佛山市"
+      },
+      {
+        "value": 102,
+        "option": "广州市"
+      },
+      {
+        "value": 103,
+        "option": "河源市"
+      },
+      {
+        "value": 104,
+        "option": "惠州市"
+      },
+      {
+        "value": 105,
+        "option": "江门市"
+      },
+      {
+        "value": 106,
+        "option": "揭西县"
+      },
+      {
+        "value": 107,
+        "option": "揭阳市"
+      },
+      {
+        "value": 108,
+        "option": "茂名市"
+      },
+      {
+        "value": 109,
+        "option": "梅州市"
+      },
+      {
+        "value": 110,
+        "option": "普宁市"
+      },
+      {
+        "value": 111,
+        "option": "清远市"
+      },
+      {
+        "value": 112,
+        "option": "汕头市"
+      },
+      {
+        "value": 113,
+        "option": "汕尾市"
+      },
+      {
+        "value": 114,
+        "option": "韶关市"
+      },
+      {
+        "value": 115,
+        "option": "深圳市"
+      },
+      {
+        "value": 116,
+        "option": "顺德市"
+      },
+      {
+        "value": 117,
+        "option": "阳江市"
+      },
+      {
+        "value": 118,
+        "option": "云浮市"
+      },
+      {
+        "value": 119,
+        "option": "湛江市"
+      },
+      {
+        "value": 120,
+        "option": "肇庆市"
+      },
+      {
+        "value": 121,
+        "option": "中山市"
+      },
+      {
+        "value": 122,
+        "option": "珠海市"
+      }
+    ]
+  },
+  {
+    "value": 6,
+    "option": "吉林省",
+    "children": [
+      {
+        "value": 123,
+        "option": "白城市"
+      },
+      {
+        "value": 124,
+        "option": "白山市"
+      },
+      {
+        "value": 125,
+        "option": "长春市"
+      },
+      {
+        "value": 126,
+        "option": "吉林市"
+      },
+      {
+        "value": 127,
+        "option": "辽源市"
+      },
+      {
+        "value": 128,
+        "option": "四平市"
+      },
+      {
+        "value": 129,
+        "option": "松原市"
+      },
+      {
+        "value": 130,
+        "option": "通化市"
+      },
+      {
+        "value": 131,
+        "option": "延边朝鲜族自治州"
+      }
+    ]
+  },
+  {
+    "value": 7,
+    "option": "黑龙江省",
+    "children": [
+      {
+        "value": 132,
+        "option": "大庆市"
+      },
+      {
+        "value": 133,
+        "option": "大兴安岭地区"
+      },
+      {
+        "value": 134,
+        "option": "哈尔滨市"
+      },
+      {
+        "value": 135,
+        "option": "鹤岗市"
+      },
+      {
+        "value": 136,
+        "option": "黑河市"
+      },
+      {
+        "value": 137,
+        "option": "鸡西市"
+      },
+      {
+        "value": 138,
+        "option": "佳木斯市"
+      },
+      {
+        "value": 139,
+        "option": "牡丹江市"
+      },
+      {
+        "value": 140,
+        "option": "七台河市"
+      },
+      {
+        "value": 141,
+        "option": "齐齐哈尔市"
+      },
+      {
+        "value": 142,
+        "option": "双鸭山市"
+      },
+      {
+        "value": 143,
+        "option": "绥化市"
+      },
+      {
+        "value": 144,
+        "option": "伊春市"
+      }
+    ]
+  },
+  {
+    "value": 8,
+    "option": "河北省",
+    "children": [
+      {
+        "value": 145,
+        "option": "保定市"
+      },
+      {
+        "value": 146,
+        "option": "沧州市"
+      },
+      {
+        "value": 147,
+        "option": "承德市"
+      },
+      {
+        "value": 148,
+        "option": "邯郸市"
+      },
+      {
+        "value": 149,
+        "option": "衡水市"
+      },
+      {
+        "value": 150,
+        "option": "廊坊市"
+      },
+      {
+        "value": 151,
+        "option": "秦皇岛市"
+      },
+      {
+        "value": 152,
+        "option": "石家庄市"
+      },
+      {
+        "value": 153,
+        "option": "唐山市"
+      },
+      {
+        "value": 154,
+        "option": "邢台市"
+      },
+      {
+        "value": 155,
+        "option": "张家口市"
+      }
+    ]
+  },
+  {
+    "value": 9,
+    "option": "河南省",
+    "children": [
+      {
+        "value": 156,
+        "option": "安阳市"
+      },
+      {
+        "value": 157,
+        "option": "鹤壁市"
+      },
+      {
+        "value": 158,
+        "option": "济源市"
+      },
+      {
+        "value": 159,
+        "option": "焦作市"
+      },
+      {
+        "value": 160,
+        "option": "开封市"
+      },
+      {
+        "value": 161,
+        "option": "洛阳市"
+      },
+      {
+        "value": 162,
+        "option": "漯河市"
+      },
+      {
+        "value": 163,
+        "option": "南阳市"
+      },
+      {
+        "value": 164,
+        "option": "平顶山市"
+      },
+      {
+        "value": 165,
+        "option": "濮阳市"
+      },
+      {
+        "value": 166,
+        "option": "三门峡市"
+      },
+      {
+        "value": 167,
+        "option": "商丘市"
+      },
+      {
+        "value": 168,
+        "option": "新乡市"
+      },
+      {
+        "value": 169,
+        "option": "信阳市"
+      },
+      {
+        "value": 170,
+        "option": "许昌市"
+      },
+      {
+        "value": 171,
+        "option": "郑州市"
+      },
+      {
+        "value": 172,
+        "option": "周口市"
+      },
+      {
+        "value": 173,
+        "option": "驻马店市"
+      }
+    ]
+  },
+  {
+    "value": 10,
+    "option": "辽宁省",
+    "children": [
+      {
+        "value": 174,
+        "option": "鞍山市"
+      },
+      {
+        "value": 175,
+        "option": "本溪市"
+      },
+      {
+        "value": 176,
+        "option": "朝阳市"
+      },
+      {
+        "value": 177,
+        "option": "大连市"
+      },
+      {
+        "value": 178,
+        "option": "丹东市"
+      },
+      {
+        "value": 179,
+        "option": "抚顺市"
+      },
+      {
+        "value": 180,
+        "option": "阜新市"
+      },
+      {
+        "value": 181,
+        "option": "葫芦岛市"
+      },
+      {
+        "value": 182,
+        "option": "锦州市"
+      },
+      {
+        "value": 183,
+        "option": "辽阳市"
+      },
+      {
+        "value": 184,
+        "option": "盘锦市"
+      },
+      {
+        "value": 185,
+        "option": "沈阳市"
+      },
+      {
+        "value": 186,
+        "option": "铁岭市"
+      },
+      {
+        "value": 187,
+        "option": "营口市"
+      }
+    ]
+  },
+  {
+    "value": 11,
+    "option": "贵州省",
+    "children": [
+      {
+        "value": 188,
+        "option": "安顺市"
+      },
+      {
+        "value": 189,
+        "option": "毕节地区"
+      },
+      {
+        "value": 190,
+        "option": "毕节市"
+      },
+      {
+        "value": 191,
+        "option": "贵阳市"
+      },
+      {
+        "value": 192,
+        "option": "六盘水市"
+      },
+      {
+        "value": 193,
+        "option": "黔东南苗族侗族自治州"
+      },
+      {
+        "value": 194,
+        "option": "黔南布依族苗族自治州"
+      },
+      {
+        "value": 195,
+        "option": "黔西南布依族苗族自治州"
+      },
+      {
+        "value": 196,
+        "option": "铜仁地区"
+      },
+      {
+        "value": 197,
+        "option": "遵义市"
+      }
+    ]
+  },
+  {
+    "value": 12,
+    "option": "青海省",
+    "children": [
+      {
+        "value": 198,
+        "option": "果洛藏族自治州"
+      },
+      {
+        "value": 199,
+        "option": "海北藏族自治州"
+      },
+      {
+        "value": 200,
+        "option": "海东地区"
+      },
+      {
+        "value": 201,
+        "option": "海南藏族自治州"
+      },
+      {
+        "value": 202,
+        "option": "海西蒙古族藏族自治州"
+      },
+      {
+        "value": 203,
+        "option": "黄南藏族自治州"
+      },
+      {
+        "value": 204,
+        "option": "西宁市"
+      },
+      {
+        "value": 205,
+        "option": "玉树藏族自治州"
+      }
+    ]
+  },
+  {
+    "value": 13,
+    "option": "四川省",
+    "children": [
+      {
+        "value": 206,
+        "option": "阿坝藏族羌族自治州"
+      },
+      {
+        "value": 207,
+        "option": "巴中市"
+      },
+      {
+        "value": 208,
+        "option": "成都市"
+      },
+      {
+        "value": 209,
+        "option": "达州市"
+      },
+      {
+        "value": 210,
+        "option": "德阳市"
+      },
+      {
+        "value": 211,
+        "option": "甘孜藏族自治州"
+      },
+      {
+        "value": 212,
+        "option": "广安市"
+      },
+      {
+        "value": 213,
+        "option": "广元市"
+      },
+      {
+        "value": 214,
+        "option": "乐山市"
+      },
+      {
+        "value": 215,
+        "option": "凉山彝族自治州"
+      },
+      {
+        "value": 216,
+        "option": "泸州市"
+      },
+      {
+        "value": 217,
+        "option": "眉山市"
+      },
+      {
+        "value": 218,
+        "option": "绵阳市"
+      },
+      {
+        "value": 219,
+        "option": "内江市"
+      },
+      {
+        "value": 220,
+        "option": "南充市"
+      },
+      {
+        "value": 221,
+        "option": "攀枝花市"
+      },
+      {
+        "value": 222,
+        "option": "遂宁市"
+      },
+      {
+        "value": 223,
+        "option": "雅安市"
+      },
+      {
+        "value": 224,
+        "option": "宜宾市"
+      },
+      {
+        "value": 225,
+        "option": "资阳市"
+      },
+      {
+        "value": 226,
+        "option": "自贡市"
+      }
+    ]
+  },
+  {
+    "value": 14,
+    "option": "江苏省",
+    "children": [
+      {
+        "value": 227,
+        "option": "常州市"
+      },
+      {
+        "value": 228,
+        "option": "丹阳市"
+      },
+      {
+        "value": 229,
+        "option": "淮安市"
+      },
+      {
+        "value": 230,
+        "option": "金坛市"
+      },
+      {
+        "value": 231,
+        "option": "连云港市"
+      },
+      {
+        "value": 232,
+        "option": "南京市"
+      },
+      {
+        "value": 233,
+        "option": "南通市"
+      },
+      {
+        "value": 234,
+        "option": "启东市"
+      },
+      {
+        "value": 235,
+        "option": "如皋市"
+      },
+      {
+        "value": 236,
+        "option": "苏州市"
+      },
+      {
+        "value": 237,
+        "option": "宿迁市"
+      },
+      {
+        "value": 238,
+        "option": "泰州市"
+      },
+      {
+        "value": 239,
+        "option": "无锡市"
+      },
+      {
+        "value": 240,
+        "option": "徐州市"
+      },
+      {
+        "value": 241,
+        "option": "盐城市"
+      },
+      {
+        "value": 242,
+        "option": "扬州市"
+      },
+      {
+        "value": 243,
+        "option": "镇江市"
+      }
+    ]
+  },
+  {
+    "value": 15,
+    "option": "山东省",
+    "children": [
+      {
+        "value": 244,
+        "option": "滨州市"
+      },
+      {
+        "value": 245,
+        "option": "德州市"
+      },
+      {
+        "value": 246,
+        "option": "东营市"
+      },
+      {
+        "value": 247,
+        "option": "菏泽市"
+      },
+      {
+        "value": 248,
+        "option": "济南市"
+      },
+      {
+        "value": 249,
+        "option": "济宁市"
+      },
+      {
+        "value": 250,
+        "option": "莱芜市"
+      },
+      {
+        "value": 251,
+        "option": "聊城市"
+      },
+      {
+        "value": 252,
+        "option": "临沂市"
+      },
+      {
+        "value": 253,
+        "option": "青岛市"
+      },
+      {
+        "value": 254,
+        "option": "日照市"
+      },
+      {
+        "value": 255,
+        "option": "泰安市"
+      },
+      {
+        "value": 256,
+        "option": "威海市"
+      },
+      {
+        "value": 257,
+        "option": "潍坊市"
+      },
+      {
+        "value": 258,
+        "option": "烟台市"
+      },
+      {
+        "value": 259,
+        "option": "枣庄市"
+      },
+      {
+        "value": 260,
+        "option": "淄博市"
+      }
+    ]
+  },
+  {
+    "value": 16,
+    "option": "云南省",
+    "children": [
+      {
+        "value": 261,
+        "option": "保山市"
+      },
+      {
+        "value": 262,
+        "option": "楚雄彝族自治州"
+      },
+      {
+        "value": 263,
+        "option": "大理白族自治州"
+      },
+      {
+        "value": 264,
+        "option": "德宏傣族景颇族自治州"
+      },
+      {
+        "value": 265,
+        "option": "迪庆藏族自治州"
+      },
+      {
+        "value": 266,
+        "option": "红河哈尼族彝族自治州"
+      },
+      {
+        "value": 267,
+        "option": "昆明市"
+      },
+      {
+        "value": 268,
+        "option": "丽江市"
+      },
+      {
+        "value": 269,
+        "option": "临沧市"
+      },
+      {
+        "value": 270,
+        "option": "怒江傈僳族自治州"
+      },
+      {
+        "value": 271,
+        "option": "普洱市"
+      },
+      {
+        "value": 272,
+        "option": "曲靖市"
+      },
+      {
+        "value": 273,
+        "option": "文山壮族苗族自治州"
+      },
+      {
+        "value": 274,
+        "option": "西双版纳傣族自治州"
+      },
+      {
+        "value": 275,
+        "option": "玉溪市"
+      },
+      {
+        "value": 276,
+        "option": "昭通市"
+      }
+    ]
+  },
+  {
+    "value": 17,
+    "option": "山西省",
+    "children": [
+      {
+        "value": 277,
+        "option": "长治"
+      },
+      {
+        "value": 278,
+        "option": "大同"
+      },
+      {
+        "value": 279,
+        "option": "晋城"
+      },
+      {
+        "value": 280,
+        "option": "晋中"
+      },
+      {
+        "value": 281,
+        "option": "临汾"
+      },
+      {
+        "value": 282,
+        "option": "吕梁"
+      },
+      {
+        "value": 283,
+        "option": "朔州"
+      },
+      {
+        "value": 284,
+        "option": "太原"
+      },
+      {
+        "value": 285,
+        "option": "忻州"
+      },
+      {
+        "value": 286,
+        "option": "阳泉"
+      },
+      {
+        "value": 287,
+        "option": "运城"
+      }
+    ]
+  },
+  {
+    "value": 18,
+    "option": "安徽省",
+    "children": [
+      {
+        "value": 288,
+        "option": "安庆市"
+      },
+      {
+        "value": 289,
+        "option": "蚌埠市"
+      },
+      {
+        "value": 290,
+        "option": "亳州市"
+      },
+      {
+        "value": 291,
+        "option": "巢湖市"
+      },
+      {
+        "value": 292,
+        "option": "池州市"
+      },
+      {
+        "value": 293,
+        "option": "滁州市"
+      },
+      {
+        "value": 294,
+        "option": "阜阳市"
+      },
+      {
+        "value": 295,
+        "option": "合肥市"
+      },
+      {
+        "value": 296,
+        "option": "淮北市"
+      },
+      {
+        "value": 297,
+        "option": "淮南市"
+      },
+      {
+        "value": 298,
+        "option": "黄山市"
+      },
+      {
+        "value": 299,
+        "option": "六安市"
+      },
+      {
+        "value": 300,
+        "option": "马鞍山市"
+      },
+      {
+        "value": 301,
+        "option": "宿州市"
+      },
+      {
+        "value": 302,
+        "option": "铜陵市"
+      },
+      {
+        "value": 303,
+        "option": "芜湖市"
+      },
+      {
+        "value": 304,
+        "option": "宣城市"
+      }
+    ]
+  },
+  {
+    "value": 19,
+    "option": "浙江省",
+    "children": [
+      {
+        "value": 305,
+        "option": "杭州市"
+      },
+      {
+        "value": 306,
+        "option": "湖州市"
+      },
+      {
+        "value": 307,
+        "option": "嘉兴市"
+      },
+      {
+        "value": 308,
+        "option": "金华市"
+      },
+      {
+        "value": 309,
+        "option": "丽水市"
+      },
+      {
+        "value": 310,
+        "option": "宁波市"
+      },
+      {
+        "value": 311,
+        "option": "衢州市"
+      },
+      {
+        "value": 312,
+        "option": "绍兴市"
+      },
+      {
+        "value": 313,
+        "option": "台州市"
+      },
+      {
+        "value": 314,
+        "option": "温州市"
+      },
+      {
+        "value": 315,
+        "option": "舟山市"
+      }
+    ]
+  },
+  {
+    "value": 20,
+    "option": "福建省",
+    "children": [
+      {
+        "value": 316,
+        "option": "福州市"
+      },
+      {
+        "value": 317,
+        "option": "龙岩市"
+      },
+      {
+        "value": 318,
+        "option": "南平市"
+      },
+      {
+        "value": 319,
+        "option": "宁德市"
+      },
+      {
+        "value": 320,
+        "option": "莆田市"
+      },
+      {
+        "value": 321,
+        "option": "泉州市"
+      },
+      {
+        "value": 322,
+        "option": "三明市"
+      },
+      {
+        "value": 323,
+        "option": "厦门市"
+      },
+      {
+        "value": 324,
+        "option": "漳州市"
+      }
+    ]
+  },
+  {
+    "value": 21,
+    "option": "湖北省",
+    "children": [
+      {
+        "value": 325,
+        "option": "鄂州市"
+      },
+      {
+        "value": 326,
+        "option": "恩施土家族苗族自治州"
+      },
+      {
+        "value": 327,
+        "option": "黄冈市"
+      },
+      {
+        "value": 328,
+        "option": "黄石市"
+      },
+      {
+        "value": 329,
+        "option": "荆门市"
+      },
+      {
+        "value": 330,
+        "option": "荆州市"
+      },
+      {
+        "value": 331,
+        "option": "潜江市"
+      },
+      {
+        "value": 332,
+        "option": "神农架林区"
+      },
+      {
+        "value": 333,
+        "option": "十堰市"
+      },
+      {
+        "value": 334,
+        "option": "随州市"
+      },
+      {
+        "value": 335,
+        "option": "天门市"
+      },
+      {
+        "value": 336,
+        "option": "武汉市"
+      },
+      {
+        "value": 337,
+        "option": "仙桃市"
+      },
+      {
+        "value": 338,
+        "option": "咸宁市"
+      },
+      {
+        "value": 339,
+        "option": "襄樊市"
+      },
+      {
+        "value": 340,
+        "option": "襄阳市"
+      },
+      {
+        "value": 341,
+        "option": "孝感市"
+      },
+      {
+        "value": 342,
+        "option": "宜昌市"
+      }
+    ]
+  },
+  {
+    "value": 22,
+    "option": "湖南省",
+    "children": [
+      {
+        "value": 343,
+        "option": "长沙市"
+      },
+      {
+        "value": 344,
+        "option": "常德市"
+      },
+      {
+        "value": 345,
+        "option": "郴州市"
+      },
+      {
+        "value": 346,
+        "option": "衡阳市"
+      },
+      {
+        "value": 347,
+        "option": "怀化市"
+      },
+      {
+        "value": 348,
+        "option": "娄底市"
+      },
+      {
+        "value": 349,
+        "option": "邵阳市"
+      },
+      {
+        "value": 350,
+        "option": "湘潭市"
+      },
+      {
+        "value": 351,
+        "option": "湘西土家族苗族自治州"
+      },
+      {
+        "value": 352,
+        "option": "益阳市"
+      },
+      {
+        "value": 353,
+        "option": "永州市"
+      },
+      {
+        "value": 354,
+        "option": "岳阳市"
+      },
+      {
+        "value": 355,
+        "option": "张家界市"
+      },
+      {
+        "value": 356,
+        "option": "株洲市"
+      }
+    ]
+  },
+  {
+    "value": 23,
+    "option": "江西省",
+    "children": [
+      {
+        "value": 357,
+        "option": "抚州市"
+      },
+      {
+        "value": 358,
+        "option": "赣州市"
+      },
+      {
+        "value": 359,
+        "option": "吉安市"
+      },
+      {
+        "value": 360,
+        "option": "景德镇市"
+      },
+      {
+        "value": 361,
+        "option": "九江市"
+      },
+      {
+        "value": 362,
+        "option": "南昌市"
+      },
+      {
+        "value": 363,
+        "option": "萍乡市"
+      },
+      {
+        "value": 364,
+        "option": "上饶市"
+      },
+      {
+        "value": 365,
+        "option": "新余市"
+      },
+      {
+        "value": 366,
+        "option": "宜春市"
+      },
+      {
+        "value": 367,
+        "option": "鹰潭市"
+      }
+    ]
+  },
+  {
+    "value": 24,
+    "option": "海南省",
+    "children": [
+      {
+        "value": 368,
+        "option": "白沙黎族自治县"
+      },
+      {
+        "value": 369,
+        "option": "保亭黎族苗族自治县"
+      },
+      {
+        "value": 370,
+        "option": "昌江黎族自治县"
+      },
+      {
+        "value": 371,
+        "option": "澄迈县"
+      },
+      {
+        "value": 372,
+        "option": "儋州市"
+      },
+      {
+        "value": 373,
+        "option": "定安县"
+      },
+      {
+        "value": 374,
+        "option": "东方市"
+      },
+      {
+        "value": 375,
+        "option": "海口市"
+      },
+      {
+        "value": 376,
+        "option": "乐东黎族自治县"
+      },
+      {
+        "value": 377,
+        "option": "临高县"
+      },
+      {
+        "value": 378,
+        "option": "陵水黎族自治县"
+      },
+      {
+        "value": 379,
+        "option": "琼海市"
+      },
+      {
+        "value": 380,
+        "option": "琼中黎族苗族自治县"
+      },
+      {
+        "value": 381,
+        "option": "三亚市"
+      },
+      {
+        "value": 382,
+        "option": "屯昌县"
+      },
+      {
+        "value": 383,
+        "option": "万宁市"
+      },
+      {
+        "value": 384,
+        "option": "文昌市"
+      },
+      {
+        "value": 385,
+        "option": "五指山市"
+      }
+    ]
+  },
+  {
+    "value": 25,
+    "option": "陕西省",
+    "children": [
+      {
+        "value": 386,
+        "option": "安康市"
+      },
+      {
+        "value": 387,
+        "option": "宝鸡市"
+      },
+      {
+        "value": 388,
+        "option": "汉中市"
+      },
+      {
+        "value": 389,
+        "option": "商洛市"
+      },
+      {
+        "value": 390,
+        "option": "铜川市"
+      },
+      {
+        "value": 391,
+        "option": "渭南市"
+      },
+      {
+        "value": 392,
+        "option": "西安市"
+      },
+      {
+        "value": 393,
+        "option": "咸阳市"
+      },
+      {
+        "value": 394,
+        "option": "延安市"
+      },
+      {
+        "value": 395,
+        "option": "榆林市"
+      }
+    ]
+  },
+  {
+    "value": 26,
+    "option": "甘肃省",
+    "children": [
+      {
+        "value": 396,
+        "option": "白银市"
+      },
+      {
+        "value": 397,
+        "option": "定西市"
+      },
+      {
+        "value": 398,
+        "option": "甘南藏族自治州"
+      },
+      {
+        "value": 399,
+        "option": "嘉峪关市"
+      },
+      {
+        "value": 400,
+        "option": "金昌市"
+      },
+      {
+        "value": 401,
+        "option": "酒泉市"
+      },
+      {
+        "value": 402,
+        "option": "兰州市"
+      },
+      {
+        "value": 403,
+        "option": "临夏回族自治州"
+      },
+      {
+        "value": 404,
+        "option": "陇南市"
+      },
+      {
+        "value": 405,
+        "option": "平凉市"
+      },
+      {
+        "value": 406,
+        "option": "庆阳市"
+      },
+      {
+        "value": 407,
+        "option": "天水市"
+      },
+      {
+        "value": 408,
+        "option": "武威市"
+      },
+      {
+        "value": 409,
+        "option": "张掖市"
+      }
+    ]
+  },
+  {
+    "value": 27,
+    "option": "广西壮族自治区",
+    "children": [
+      {
+        "value": 410,
+        "option": "百色市"
+      },
+      {
+        "value": 411,
+        "option": "北海市"
+      },
+      {
+        "value": 412,
+        "option": "崇左市"
+      },
+      {
+        "value": 413,
+        "option": "防城港市"
+      },
+      {
+        "value": 414,
+        "option": "贵港市"
+      },
+      {
+        "value": 415,
+        "option": "桂林市"
+      },
+      {
+        "value": 416,
+        "option": "河池市"
+      },
+      {
+        "value": 417,
+        "option": "贺州市"
+      },
+      {
+        "value": 418,
+        "option": "来宾市"
+      },
+      {
+        "value": 419,
+        "option": "柳州市"
+      },
+      {
+        "value": 420,
+        "option": "南宁市"
+      },
+      {
+        "value": 421,
+        "option": "钦州市"
+      },
+      {
+        "value": 422,
+        "option": "梧州市"
+      },
+      {
+        "value": 423,
+        "option": "玉林市"
+      }
+    ]
+  },
+  {
+    "value": 28,
+    "option": "内蒙古自治区",
+    "children": [
+      {
+        "value": 424,
+        "option": "阿拉善盟"
+      },
+      {
+        "value": 425,
+        "option": "巴彦淖尔市"
+      },
+      {
+        "value": 426,
+        "option": "包头市"
+      },
+      {
+        "value": 427,
+        "option": "赤峰市"
+      },
+      {
+        "value": 428,
+        "option": "鄂尔多斯市"
+      },
+      {
+        "value": 429,
+        "option": "呼和浩特市"
+      },
+      {
+        "value": 430,
+        "option": "呼伦贝尔市"
+      },
+      {
+        "value": 431,
+        "option": "通辽市"
+      },
+      {
+        "value": 432,
+        "option": "乌海市"
+      },
+      {
+        "value": 433,
+        "option": "乌兰察布市"
+      },
+      {
+        "value": 434,
+        "option": "锡林郭勒盟"
+      },
+      {
+        "value": 435,
+        "option": "兴安盟"
+      }
+    ]
+  },
+  {
+    "value": 29,
+    "option": "宁夏回族自治区",
+    "children": [
+      {
+        "value": 436,
+        "option": "固原市"
+      },
+      {
+        "value": 437,
+        "option": "石嘴山市"
+      },
+      {
+        "value": 438,
+        "option": "吴忠市"
+      },
+      {
+        "value": 439,
+        "option": "银川市"
+      },
+      {
+        "value": 440,
+        "option": "中卫市"
+      }
+    ]
+  },
+  {
+    "value": 30,
+    "option": "新疆维吾尔自治区",
+    "children": [
+      {
+        "value": 441,
+        "option": "阿克苏地区"
+      },
+      {
+        "value": 442,
+        "option": "阿拉尔市"
+      },
+      {
+        "value": 443,
+        "option": "阿勒泰地区"
+      },
+      {
+        "value": 444,
+        "option": "阿图什市"
+      },
+      {
+        "value": 445,
+        "option": "巴音郭楞蒙古自治州"
+      },
+      {
+        "value": 446,
+        "option": "博尔塔拉蒙古自治州"
+      },
+      {
+        "value": 447,
+        "option": "昌吉回族自治州"
+      },
+      {
+        "value": 448,
+        "option": "哈密地区"
+      },
+      {
+        "value": 449,
+        "option": "和田地区"
+      },
+      {
+        "value": 450,
+        "option": "喀什地区"
+      },
+      {
+        "value": 451,
+        "option": "克拉玛依市"
+      },
+      {
+        "value": 452,
+        "option": "克孜勒苏柯尔克孜自治州"
+      },
+      {
+        "value": 453,
+        "option": "石河子市"
+      },
+      {
+        "value": 454,
+        "option": "塔城地区"
+      },
+      {
+        "value": 455,
+        "option": "图木舒克市"
+      },
+      {
+        "value": 456,
+        "option": "吐鲁番地区"
+      },
+      {
+        "value": 457,
+        "option": "乌鲁木齐市"
+      },
+      {
+        "value": 458,
+        "option": "五家渠市"
+      },
+      {
+        "value": 459,
+        "option": "伊犁哈萨克自治州"
+      }
+    ]
+  },
+  {
+    "value": 31,
+    "option": "西藏自治区",
+    "children": [
+      {
+        "value": 460,
+        "option": "阿里地区"
+      },
+      {
+        "value": 461,
+        "option": "昌都地区"
+      },
+      {
+        "value": 462,
+        "option": "拉萨市"
+      },
+      {
+        "value": 463,
+        "option": "林芝地区"
+      },
+      {
+        "value": 464,
+        "option": "那曲地区"
+      },
+      {
+        "value": 465,
+        "option": "日喀则地区"
+      },
+      {
+        "value": 466,
+        "option": "山南地区"
+      }
+    ]
+  },
+  {
+    "value": 32,
+    "option": "香港特区",
+    "children": [
+      {
+        "value": 467,
+        "option": "北区"
+      },
+      {
+        "value": 468,
+        "option": "大埔区"
+      },
+      {
+        "value": 469,
+        "option": "东区"
+      },
+      {
+        "value": 470,
+        "option": "观塘区"
+      },
+      {
+        "value": 471,
+        "option": "黄大仙区"
+      },
+      {
+        "value": 472,
+        "option": "九龙城区"
+      },
+      {
+        "value": 473,
+        "option": "葵青区"
+      },
+      {
+        "value": 474,
+        "option": "离岛区"
+      },
+      {
+        "value": 475,
+        "option": "南区"
+      },
+      {
+        "value": 476,
+        "option": "荃湾区"
+      },
+      {
+        "value": 477,
+        "option": "沙田区"
+      },
+      {
+        "value": 478,
+        "option": "深水埗区"
+      },
+      {
+        "value": 479,
+        "option": "屯门区"
+      },
+      {
+        "value": 480,
+        "option": "湾仔区"
+      },
+      {
+        "value": 481,
+        "option": "西贡区"
+      },
+      {
+        "value": 482,
+        "option": "油尖旺区"
+      },
+      {
+        "value": 483,
+        "option": "元朗区"
+      },
+      {
+        "value": 484,
+        "option": "中西区"
+      }
+    ]
+  },
+  {
+    "value": 33,
+    "option": "澳门特区",
+    "children": [
+      {
+        "value": 485,
+        "option": "澳门"
+      }
+    ]
+  }
+]
