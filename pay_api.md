@@ -30,10 +30,10 @@
 参与签名参数根据键名以 ascii 升序排序，并剔除值为空(null 或空字符串)的参数及sign参数。  
 处理后的参数以 "{$key}={$value}" 的方式拼接，{$ts}与{$secret_key}只拼接值，无键名。
 
-- 签名字符串示例:
+- 签名示例:
   
 ```
-app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pay_cur={$pay_cur}pay_type={$pay_type}return_url={$return_url}{$ts}{$secret_key}
+$sign = md5("app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pay_cur={$pay_cur}pay_type={$pay_type}return_url={$return_url}{$ts}{$secret_key}");
 ```
 对以上内容进行md5，结果为英文为小写，{$secret_key}为商户秘钥（见商户后台）
 
@@ -76,10 +76,10 @@ app_id={$app_id}notify_url={$notify_url}order_no={$order_no}pay_amt={$pay_amt}pa
 
 ### 通知验参
 
-- 签名字符串示例:
+- 签名示例:
   
 ```
-app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay_actual_amt}{$ts}{$secret_key}
+$sign = md5("app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay_actual_amt}{$ts}{$secret_key}");
 ```
 签名规则参照提单签名方式
 
@@ -104,10 +104,10 @@ app_id={$app_id}is_success={$is_success}order_no={$order_no}pay_actual_amt={$pay
 
 ### 查询签名
 
-- 签名字符串示例:
+- 签名示例:
   
 ```
-app_id={$app_id}order_no={$order_no}{$ts}{$secret_key}
+$sign = md5("app_id={$app_id}order_no={$order_no}{$ts}{$secret_key}");
 ```
 签名规则参照提单签名方式
 
