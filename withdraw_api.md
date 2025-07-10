@@ -12,7 +12,7 @@
 | amount          | 必填 | 代付金额，单位：元      |
 | order_no        | 必填 | 商户订单，原样回传      |
 | bank_id         | 必填 | 支付宝代付填 0  其他参照 banks.json |
-| bank_account    | 必填 | 银行账号/支付宝账号/汇旺手机号     |
+| bank_account    | 必填 | 银行账号/支付宝账号     |
 | bank_account_type | 必填 | 银行类型 0 对私 1 对公 |
 | bank_user_name  | 必填 | 账户姓名/支付宝姓名  |
 | bank_user_id    | 必填 | 身份证号或其他游戏id；用户唯一标识         |
