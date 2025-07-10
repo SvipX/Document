@@ -15,14 +15,14 @@
 | bank_account    | 必填 | 银行账号/支付宝账号/汇旺手机号     |
 | bank_account_type | 必填 | 银行类型 0 对私 1 对公 |
 | bank_user_name  | 必填 | 账户姓名/支付宝姓名  |
-| bank_user_id    | 必填 | 身份证号或其他编号；用户唯一标识         |
-| branch_name     | 必填 | 支行名称；可填银行名称 |
+| bank_user_id    | 必填 | 身份证号或其他游戏id；用户唯一标识         |
+| branch_name     | 必填 | 支行名称；完整的名称：中国银行上海市正阳支行 |
 | notify_url     | 必填 | 回调地址 |
 | city            | 非必填 | 地级城市名或直辖市区名； 如: 杭州市 或 朝阳区。参照 citys.json |
 | ts              | 必填 | unix格式时间戳    |
 | sign            | 必填 | 签名             |
 
-代付方式若为支付宝 branch_name 固定值 "支付宝"。
+收款方式若为支付宝 branch_name 固定值 "支付宝"。
 
 ###  签名方式
 
