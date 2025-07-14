@@ -11,14 +11,12 @@
 | withdraw_type   | 必填 | 1:安全发 2：支付宝转账 3：银行卡 4：数字人民币 5：USDT  |
 | amount          | 必填 | 代付金额，单位：元      |
 | order_no        | 必填 | 商户订单，原样回传      |
-| bank_id         | 必填 | 支付宝代付填 0  其他参照 banks.json |
 | bank_account    | 必填 | 银行账号/支付宝账号     |
 | bank_account_type | 必填 | 银行类型 0 对私 1 对公 |
 | bank_user_name  | 必填 | 账户姓名/支付宝姓名  |
 | bank_user_id    | 必填 | 身份证号或其他游戏id；用户唯一标识         |
-| branch_name     | 必填 | 支行名称；完整的名称 （如：中国银行上海市正阳支行） |
+| branch_name     | 必填 | 完整的支行名称 （如：中国银行上海市正阳支行） |
 | notify_url     | 必填 | 回调地址 |
-| city            | 非必填 | 地级城市名或直辖市区名； 如: 杭州市 或 朝阳区。参照 citys.json |
 | ts              | 必填 | unix格式时间戳    |
 | sign            | 必填 | 签名             |
 
