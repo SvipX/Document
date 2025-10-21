@@ -14,7 +14,7 @@
 | bank_account    | 必填 | 银行账号/支付宝账号     |
 | bank_account_type | 必填 | 银行类型 0 对私 1 对公 |
 | bank_user_name  | 必填 | 账户姓名/支付宝姓名  |
-| bank_user_id    | 必填 | 身份证号或其他游戏id；用户唯一标识         |
+| bank_user_id    | 必填 | 身份证号或其他游戏id；用户唯一标识，不超过18个字符         |
 | branch_name     | 必填 | 银行名称 （如：中国银行；交通银行） |
 | notify_url     | 必填 | 回调地址 |
 | ts              | 必填 | unix格式时间戳    |
