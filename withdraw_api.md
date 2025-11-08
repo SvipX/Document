@@ -134,6 +134,41 @@ errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原�
 errcode为 0 时说明查询成功，errmsg为代付订单备注（失败原因或鉴权）。  
 status为代付订单状态 success代付成功 checking处理中 fail代付失败。  
 
+## 代付余额查询
+
+- 代付查询Api：https://域名/api/withdraw/balance
+- 请求方式：post
+- 请代付订单发起1分钟后再查询结果
+
+### 查询参数
+
+|   参数   |  空  |    描述    |
+|:---------|:----:|:-----------|
+| app_id   | 必填 | 商户appid  |
+| ts       | 必填 | unix时间戳 |
+| sign     | 必填 | md5签名    |
+
+### 查询签名
+
+- 查询签名示例
+  
+```
+$sign = md5("app_id={$app_id}&ts={$ts}&key={$secret_key}");
+```
+签名规则参照提单签名方式
+### 查询返回参数
+
+- 示例：json()
+  
+```
+[
+    'errcode' => '0',
+    'errmsg' => '查询成功',
+    'balance' => 12345,
+];
+```
+errcode不为 0 时，仅有errcode 与 errmsg两个参数，errmsg为错误原因。  
+errcode为 0 时说明查询成功，balance为商户可用余额。   
 
 ## 常见错误参数说明
 
