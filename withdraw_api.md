@@ -136,7 +136,7 @@ status为代付订单状态 success代付成功 checking处理中 fail代付失�
 
 ## 余额查询
 
-- 代付查询Api：https://域名/api/withdraw/balance
+- 余额查询Api：https://域名/api/withdraw/balance
 - 请求方式：post
 - 请代付订单发起1分钟后再查询结果
 
